@@ -7,15 +7,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        sineWaveView.unitPerHertz = sineWaveView.bounds.width
         sineWaveView.waves = [
-            SineWave(amplitude: 1.0, frequency: 1.0, color: .red),
-            SineWave(amplitude: 0.8, frequency: 2.0, color: .green),
-            SineWave(amplitude: 0.5, frequency: 3.0, color: .purple),
-            SineWave(amplitude: 0.4, frequency: 5.0, color: .yellow),
+            SineWave(amplitude: 1.0, frequency: 1.0, offset: 0, color: .red),
+            SineWave(amplitude: 0.8, frequency: 2.0, offset: 0, color: .green),
+            SineWave(amplitude: 0.6, frequency: 3.0, offset: 0, color: .purple),
+            SineWave(amplitude: 0.4, frequency: 5.0, offset: 1, color: .yellow),
         ]
     }
 

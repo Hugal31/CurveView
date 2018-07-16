@@ -3,7 +3,10 @@ import UIKit
 public class SineWaveView: UIView {
 
     /// Number of unit / pixel per drawed line
-    private static let unitPerLine: CGFloat = 4.0
+    public var unitPerLine: CGFloat = 4.0
+
+    // Number of unit per "hertz"
+    public var unitPerHertz: CGFloat = 200.0
 
     public var waves: [SineWave] = [] {
         didSet {
@@ -21,7 +24,10 @@ public class SineWaveView: UIView {
     }
 
     private func buildShapeLayer(forWave wave: SineWave) -> CAShapeLayer {
-        let path = buildPath(withAmplitude: wave.amplitude, frequency: wave.frequency, inRect: bounds)
+        let path = buildPath(withAmplitude: wave.amplitude,
+                             frequency: wave.frequency,
+                             offset: wave.offset,
+                             inRect: bounds)
         let pathLayer = CAShapeLayer()
         pathLayer.frame = bounds
         pathLayer.path = path.cgPath
@@ -33,19 +39,22 @@ public class SineWaveView: UIView {
         return pathLayer
     }
 
-    private func buildPath(withAmplitude amplitude: CGFloat, frequency: CGFloat, inRect rect: CGRect) -> UIBezierPath {
+    private func buildPath(withAmplitude amplitude: CGFloat,
+                           frequency: CGFloat,
+                           offset: CGFloat,
+                           inRect rect: CGRect) -> UIBezierPath {
+        // TODO: Move bezier path instead, for better animation
         let width = rect.width
         let height = rect.height
         let origin = CGPoint(x: 0, y: height / 2)
 
         let path = UIBezierPath()
-        path.move(to: origin)
+        path.move(to: CGPoint(x: origin.x,
+                              y: origin.y - sin(2 * frequency * offset) * height * amplitude / 2))
 
-        let precision = Int(width / SineWaveView.unitPerLine)
-        for point in 0...precision {
-            let advancement = CGFloat(point) / CGFloat(precision)
-            let x = origin.x + advancement * width
-            let y = origin.y - CGFloat(sin(advancement * .pi * frequency * 2.0)) * height * amplitude / 2
+        for deltaX in stride(from: unitPerLine, to: width + unitPerLine, by: unitPerLine) {
+            let x = origin.x + deltaX
+            let y = origin.y - CGFloat(sin(2 * (offset + frequency * deltaX / unitPerHertz) * .pi)) * height * amplitude / 2
             path.addLine(to: CGPoint(x: x, y: y))
         }
 
