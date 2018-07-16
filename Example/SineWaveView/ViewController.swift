@@ -1,24 +1,26 @@
-//
-//  ViewController.swift
-//  SineWaveView
-//
-//  Created by Hugal31 on 07/15/2018.
-//  Copyright (c) 2018 Hugal31. All rights reserved.
-//
-
+import SineWaveView
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var sineWaveView: SineWaveView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        sineWaveView.waves = [
+            SineWave(amplitude: 1.0, frequency: 1.0, color: .red),
+            SineWave(amplitude: 0.8, frequency: 2.0, color: .green),
+            SineWave(amplitude: 0.5, frequency: 3.0, color: .purple),
+            SineWave(amplitude: 0.4, frequency: 5.0, color: .yellow),
+        ]
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
 }
 
