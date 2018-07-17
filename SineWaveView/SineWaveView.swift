@@ -50,7 +50,7 @@ public class SineWaveView: UIView {
 
         let path = UIBezierPath()
         path.move(to: CGPoint(x: origin.x,
-                              y: origin.y - sin(2 * frequency * offset) * height * amplitude / 2))
+                              y: origin.y - sin(2 * offset * .pi) * height * amplitude / 2))
 
         for deltaX in stride(from: unitPerLine, to: width + unitPerLine, by: unitPerLine) {
             let x = origin.x + deltaX
