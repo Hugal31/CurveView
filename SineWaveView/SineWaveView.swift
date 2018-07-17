@@ -8,24 +8,40 @@ public class SineWaveView: UIView {
     /// Number of unit per "hertz"
     public var unitPerHertz: CGFloat = 200.0
 
-    public var waves: [SineWave] = [] {
-        didSet {
-            updateWaves()
+    public var waves: [SineWave] {
+        get {
+            return wavesLayers.map { $0.0 }
+        }
+        set {
+            updateWaves(waves: newValue)
         }
     }
 
-    private func updateWaves() {
-        layer.sublayers?.forEach { $0.removeFromSuperlayer() }
+    private var wavesLayers: [(SineWave, CAShapeLayer)] = []
+
+    public func updateWave(from fromWave: SineWave, to toWave: SineWave) {
+        let waveLayer = wavesLayers.first { $0.0 == fromWave }!.1
+
+        let newPath = buildPath(forWave: toWave).cgPath
+        waveLayer.path = newPath
+        waveLayer.strokeColor = toWave.color.cgColor
+    }
+
+    private func updateWaves(waves: [SineWave]) {
+        wavesLayers.forEach { $0.1.removeFromSuperlayer() }
+        wavesLayers.removeAll()
 
         for wave in waves {
             let pathLayer = buildShapeLayer(forWave: wave)
             layer.addSublayer(pathLayer)
+
+            wavesLayers.append((wave, pathLayer))
         }
     }
 
     private func buildShapeLayer(forWave wave: SineWave) -> CAShapeLayer {
         let path = buildPath(forWave: wave)
-        let pathLayer = CAShapeLayer()
+        let pathLayer = AnimatablePathShapehLayer()
         pathLayer.frame = bounds
         pathLayer.path = path.cgPath
         pathLayer.strokeColor = wave.color.cgColor
@@ -61,5 +77,35 @@ public class SineWaveView: UIView {
         }
 
         return path
+    }
+}
+
+/// A shape layer that animate the change of its path.
+private class AnimatablePathShapehLayer: CAShapeLayer {
+    override init() {
+        super.init()
+    }
+
+    override init(layer: Any) {
+        super.init(layer: layer)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+
+    override class func needsDisplay(forKey key: String) -> Bool {
+        return key == "path" || super.needsDisplay(forKey: key)
+    }
+
+    override func action(forKey event: String) -> CAAction? {
+        if event == "path" {
+            let animation = CABasicAnimation(keyPath: event)
+            let fromPath = presentation()?.value(forKey: event) ?? self.value(forKey: event)
+            animation.fromValue = fromPath
+            animation.toValue = nil
+            return animation
+        }
+        return super.action(forKey: event)
     }
 }

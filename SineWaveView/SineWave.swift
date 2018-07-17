@@ -1,4 +1,4 @@
-public struct SineWave {
+public struct SineWave: Equatable {
     public let amplitude: CGFloat
 
     public let frequency: CGFloat
