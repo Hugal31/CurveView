@@ -3,7 +3,7 @@ public struct SineWave {
 
     public let frequency: CGFloat
 
-    /// Offset of the curve, usually between 0 and 1
+    /// Offset of the curve, between -1 and 1
     public let offset: CGFloat
 
     public let color: UIColor
