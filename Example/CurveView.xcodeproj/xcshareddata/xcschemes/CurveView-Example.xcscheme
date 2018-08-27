@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "SineWaveView_Example.app"
-               BlueprintName = "SineWaveView_Example"
-               ReferencedContainer = "container:SineWaveView.xcodeproj">
+               BuildableName = "CurveView_Example.app"
+               BlueprintName = "CurveView_Example"
+               ReferencedContainer = "container:CurveView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SineWaveView_Tests.xctest"
-               BlueprintName = "SineWaveView_Tests"
-               ReferencedContainer = "container:SineWaveView.xcodeproj">
+               BuildableName = "CurveView_Tests.xctest"
+               BlueprintName = "CurveView_Tests"
+               ReferencedContainer = "container:CurveView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "SineWaveView_Tests.xctest"
-               BlueprintName = "SineWaveView_Tests"
-               ReferencedContainer = "container:SineWaveView.xcodeproj">
+               BuildableName = "CurveView_Tests.xctest"
+               BlueprintName = "CurveView_Tests"
+               ReferencedContainer = "container:CurveView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SineWaveView_Example.app"
-            BlueprintName = "SineWaveView_Example"
-            ReferencedContainer = "container:SineWaveView.xcodeproj">
+            BuildableName = "CurveView_Example.app"
+            BlueprintName = "CurveView_Example"
+            ReferencedContainer = "container:CurveView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SineWaveView_Example.app"
-            BlueprintName = "SineWaveView_Example"
-            ReferencedContainer = "container:SineWaveView.xcodeproj">
+            BuildableName = "CurveView_Example.app"
+            BlueprintName = "CurveView_Example"
+            ReferencedContainer = "container:CurveView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "SineWaveView_Example.app"
-            BlueprintName = "SineWaveView_Example"
-            ReferencedContainer = "container:SineWaveView.xcodeproj">
+            BuildableName = "CurveView_Example.app"
+            BlueprintName = "CurveView_Example"
+            ReferencedContainer = "container:CurveView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

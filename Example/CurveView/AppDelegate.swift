@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SineWaveView
+//  CurveView
 //
 //  Created by Hugal31 on 07/15/2018.
 //  Copyright (c) 2018 Hugal31. All rights reserved.

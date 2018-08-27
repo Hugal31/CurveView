@@ -1,5 +1,5 @@
 import XCTest
-import SineWaveView
+import CurveView
 
 class Tests: XCTestCase {
     

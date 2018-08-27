@@ -59,7 +59,7 @@ public class CurveView: UIView {
         path.move(to: origin)
 
         for x in stride(from: resolution, to: width, by: resolution) {
-            let y = middle + CGFloat(curve.getValue(forX: (x / pixelPerUnit).native)) * pixelPerUnit
+            let y = middle + CGFloat(curve.getValue(forX: Double(x / pixelPerUnit))) * pixelPerUnit
             path.addLine(to: CGPoint(x: x, y: y))
         }
 

@@ -1,11 +1,9 @@
 use_frameworks!
 
-target 'SineWaveView_Example' do
-  pod 'SineWaveView', :path => '../'
+target 'CurveView_Example' do
+  pod 'CurveView', :path => '../'
 
-  target 'SineWaveView_Tests' do
+  target 'CurveView_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end

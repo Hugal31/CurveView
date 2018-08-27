@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SineWaveView.podspec' to ensure this is a
+# Be sure to run `pod lib lint CurveView.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SineWaveView'
+  s.name             = 'CurveView'
   s.version          = '0.1.0'
   s.summary          = 'An UIView that shows sine waves.'
 
@@ -15,14 +15,14 @@ Pod::Spec.new do |s|
 Provides an UIView that shows sine waves.
                        DESC
 
-  s.homepage         = 'https://github.com/Hugal31/SineWaveView'
+  s.homepage         = 'https://github.com/Hugal31/CurveView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hugal31' => 'hugo.laloge@gmail.com' }
-  s.source           = { :git => 'https://github.com/Hugal31/SineWaveView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Hugal31/CurveView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SineWaveView/**/*'
+  s.source_files = 'CurveView/**/*'
 
   s.frameworks = 'UIKit'
 end

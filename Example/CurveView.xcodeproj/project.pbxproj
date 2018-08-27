@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9AE3D8D270F0938FFAD04D2A /* Pods_SineWaveView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1902244B6A8D901E42FAA088 /* Pods_SineWaveView_Tests.framework */; };
-		DC1F76D9E24CAABC412262E4 /* Pods_SineWaveView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6395187AAC909ADB0A3C927F /* Pods_SineWaveView_Example.framework */; };
+		9AE3D8D270F0938FFAD04D2A /* Pods_CurveView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1902244B6A8D901E42FAA088 /* Pods_CurveView_Tests.framework */; };
+		DC1F76D9E24CAABC412262E4 /* Pods_CurveView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6395187AAC909ADB0A3C927F /* Pods_CurveView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +23,30 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = SineWaveView;
+			remoteInfo = CurveView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1902244B6A8D901E42FAA088 /* Pods_SineWaveView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SineWaveView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A279ECBFCC53CCF1C26C314 /* Pods-SineWaveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SineWaveView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SineWaveView_Example/Pods-SineWaveView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* SineWaveView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SineWaveView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1902244B6A8D901E42FAA088 /* Pods_CurveView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurveView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A279ECBFCC53CCF1C26C314 /* Pods-CurveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurveView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CurveView_Example/Pods-CurveView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* CurveView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* SineWaveView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SineWaveView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* CurveView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6395187AAC909ADB0A3C927F /* Pods_SineWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SineWaveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6395187AAC909ADB0A3C927F /* Pods_CurveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		843FE0C470D580BA333FA29F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		908529713A0C0B66860B9779 /* Pods-SineWaveView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SineWaveView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SineWaveView_Tests/Pods-SineWaveView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BCD09AE1DD3FF4D71CBA595 /* Pods-SineWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SineWaveView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SineWaveView_Example/Pods-SineWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		908529713A0C0B66860B9779 /* Pods-CurveView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurveView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CurveView_Tests/Pods-CurveView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCD09AE1DD3FF4D71CBA595 /* Pods-CurveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurveView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CurveView_Example/Pods-CurveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC5A29BCFCE5F2FBACE87968 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CB14D1BC4B2369833DC06646 /* SineWaveView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SineWaveView.podspec; path = ../SineWaveView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E4022F710AA977259AD569F4 /* Pods-SineWaveView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SineWaveView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SineWaveView_Tests/Pods-SineWaveView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB14D1BC4B2369833DC06646 /* CurveView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CurveView.podspec; path = ../CurveView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4022F710AA977259AD569F4 /* Pods-CurveView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurveView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CurveView_Tests/Pods-CurveView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1F76D9E24CAABC412262E4 /* Pods_SineWaveView_Example.framework in Frameworks */,
+				DC1F76D9E24CAABC412262E4 /* Pods_CurveView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE3D8D270F0938FFAD04D2A /* Pods_SineWaveView_Tests.framework in Frameworks */,
+				9AE3D8D270F0938FFAD04D2A /* Pods_CurveView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SineWaveView */,
+				607FACD21AFB9204008FA782 /* Example for CurveView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D7F07DD9153897E98CAEBDDB /* Pods */,
@@ -84,13 +84,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SineWaveView_Example.app */,
-				607FACE51AFB9204008FA782 /* SineWaveView_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* CurveView_Example.app */,
+				607FACE51AFB9204008FA782 /* CurveView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for SineWaveView */ = {
+		607FACD21AFB9204008FA782 /* Example for CurveView */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -100,8 +100,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for SineWaveView";
-			path = SineWaveView;
+			name = "Example for CurveView";
+			path = CurveView;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -132,7 +132,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CB14D1BC4B2369833DC06646 /* SineWaveView.podspec */,
+				CB14D1BC4B2369833DC06646 /* CurveView.podspec */,
 				AC5A29BCFCE5F2FBACE87968 /* README.md */,
 				843FE0C470D580BA333FA29F /* LICENSE */,
 			);
@@ -142,8 +142,8 @@
 		CB95DD5054927E99457CC22F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6395187AAC909ADB0A3C927F /* Pods_SineWaveView_Example.framework */,
-				1902244B6A8D901E42FAA088 /* Pods_SineWaveView_Tests.framework */,
+				6395187AAC909ADB0A3C927F /* Pods_CurveView_Example.framework */,
+				1902244B6A8D901E42FAA088 /* Pods_CurveView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 		D7F07DD9153897E98CAEBDDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BCD09AE1DD3FF4D71CBA595 /* Pods-SineWaveView_Example.debug.xcconfig */,
-				5A279ECBFCC53CCF1C26C314 /* Pods-SineWaveView_Example.release.xcconfig */,
-				908529713A0C0B66860B9779 /* Pods-SineWaveView_Tests.debug.xcconfig */,
-				E4022F710AA977259AD569F4 /* Pods-SineWaveView_Tests.release.xcconfig */,
+				9BCD09AE1DD3FF4D71CBA595 /* Pods-CurveView_Example.debug.xcconfig */,
+				5A279ECBFCC53CCF1C26C314 /* Pods-CurveView_Example.release.xcconfig */,
+				908529713A0C0B66860B9779 /* Pods-CurveView_Tests.debug.xcconfig */,
+				E4022F710AA977259AD569F4 /* Pods-CurveView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SineWaveView_Example */ = {
+		607FACCF1AFB9204008FA782 /* CurveView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SineWaveView_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CurveView_Example" */;
 			buildPhases = (
 				D5697E42CE998F0ED0B28D4D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,29 +176,28 @@
 			);
 			dependencies = (
 			);
-			name = SineWaveView_Example;
-			productName = SineWaveView;
-			productReference = 607FACD01AFB9204008FA782 /* SineWaveView_Example.app */;
+			name = CurveView_Example;
+			productName = CurveView;
+			productReference = 607FACD01AFB9204008FA782 /* CurveView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* SineWaveView_Tests */ = {
+		607FACE41AFB9204008FA782 /* CurveView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SineWaveView_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CurveView_Tests" */;
 			buildPhases = (
 				BA144B7497FA231A6983050C /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				759EA6411683A265257AE8BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = SineWaveView_Tests;
+			name = CurveView_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* SineWaveView_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* CurveView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SineWaveView" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CurveView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SineWaveView_Example */,
-				607FACE41AFB9204008FA782 /* SineWaveView_Tests */,
+				607FACCF1AFB9204008FA782 /* CurveView_Example */,
+				607FACE41AFB9204008FA782 /* CurveView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,34 +267,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SineWaveView_Example/Pods-SineWaveView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SineWaveView/SineWaveView.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CurveView_Example/Pods-CurveView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CurveView/CurveView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SineWaveView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CurveView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SineWaveView_Example/Pods-SineWaveView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		759EA6411683A265257AE8BF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SineWaveView_Tests/Pods-SineWaveView_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SineWaveView_Tests/Pods-SineWaveView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CurveView_Example/Pods-CurveView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA144B7497FA231A6983050C /* [CP] Check Pods Manifest.lock */ = {
@@ -309,7 +290,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SineWaveView_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CurveView_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,7 +308,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SineWaveView_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CurveView_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,7 +340,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SineWaveView_Example */;
+			target = 607FACCF1AFB9204008FA782 /* CurveView_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,10 +470,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BCD09AE1DD3FF4D71CBA595 /* Pods-SineWaveView_Example.debug.xcconfig */;
+			baseConfigurationReference = 9BCD09AE1DD3FF4D71CBA595 /* Pods-CurveView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SineWaveView/Info.plist;
+				INFOPLIST_FILE = CurveView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -504,10 +485,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A279ECBFCC53CCF1C26C314 /* Pods-SineWaveView_Example.release.xcconfig */;
+			baseConfigurationReference = 5A279ECBFCC53CCF1C26C314 /* Pods-CurveView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SineWaveView/Info.plist;
+				INFOPLIST_FILE = CurveView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -519,7 +500,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 908529713A0C0B66860B9779 /* Pods-SineWaveView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 908529713A0C0B66860B9779 /* Pods-CurveView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -535,13 +516,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SineWaveView_Example.app/SineWaveView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveView_Example.app/CurveView_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4022F710AA977259AD569F4 /* Pods-SineWaveView_Tests.release.xcconfig */;
+			baseConfigurationReference = E4022F710AA977259AD569F4 /* Pods-CurveView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -553,14 +534,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SineWaveView_Example.app/SineWaveView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveView_Example.app/CurveView_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "SineWaveView" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CurveView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -569,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SineWaveView_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CurveView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -578,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SineWaveView_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CurveView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

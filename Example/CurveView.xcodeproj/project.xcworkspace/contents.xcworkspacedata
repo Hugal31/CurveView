@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SineWaveView.xcodeproj">
+      location = "self:CurveView.xcodeproj">
    </FileRef>
 </Workspace>

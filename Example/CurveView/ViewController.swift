@@ -1,4 +1,4 @@
-import SineWaveView
+import CurveView
 import UIKit
 
 class ViewController: UIViewController {
