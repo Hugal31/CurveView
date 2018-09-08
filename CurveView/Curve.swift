@@ -25,13 +25,13 @@ public struct SineWaveCurve: Equatable, Curve {
     /// Offset of the curve, between -1 and 1
     public let phase: Double
 
-    public init(amplitude: Double, frequency: Double, offset: Double) {
+    public init(amplitude: Double, frequency: Double, phase: Double) {
         self.amplitude = amplitude
         self.frequency = frequency
-        self.phase = offset
+        self.phase = phase
     }
 
     public func getValue(forX x: Double) -> Double {
-        return sin(Double.pi * frequency * x + phase) * amplitude
+        return sin(/*Double.pi */ frequency * x + phase) * amplitude
     }
 }
